@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BEBAS___.ttf);
+}
+
+@font-face {
+    font-family: StMarie-Thin;
+    src: url(../fonts/StMarie-Thin.otf);
+}
+
+body{
+    font-family: Calibri;
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container{
+    width: 63.5%;
+    margin: 0 auto;
+}
+
+header{
+    border-bottom: 4px solid #fcba50;
+}
+
+.logo{
+    float: left;
+    margin: 5px 0 15px 15px;
+    width: 22%;
+}
+
+.logo .logo-text, .logo img{
+    float: left;
+}
+
+.logo .logo-text{
+    margin-left: 30px;
+}
+
+.logo-text div:first-child{
+    font-size: 39px;
+    color: #fb9c06;
+    margin: 3px 0 0 23px;
+}
+
+.logo-text div:last-child{
+    font-family: Bebas;
+    font-size: 39px;
+    font-weight: bold;
+    color: #6e6d6b;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.header-nav{
+    float: right;
+    width: 51.4%;
+}
+
+.header-nav li{
+    display: block;
+    float: left;
+    margin-right: 13%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color: #6e6d6b;
+}
+
+.header-nav li div{
+    font-size: 22px;
+    color: #9e9b9b;
+    margin-top: 5px;
+}
+
+.header-nav li:last-child{
+    margin-right: 0;
+}
+
+main{
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 70px;
+}
+
+.slider{
+    background: url("../img/big-orange-bg.png") no-repeat right / cover;
+    border-bottom: 4px solid #fcba50;
+    padding-top: 130px;
+    padding-bottom: 105px;
+}
+
+.slider-titles{
+    margin-left: 8px;
+    width: 400px;
+}
+
+.slider-title h2{
+    font-family: Bebas;
+    font-size: 37px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.slider-titles .slider-title{
+    background-color: #fcc759;
+    color: #6e6d6b;
+    opacity: 0.8;
+    float: left;
+    padding: 11px 28px;
+    text-align: center;
+}
+
+.slider-titles .slider-title:first-child{
+    background-color: #4b4f4f;
+    color: #fb9c06;
+    margin: 0 0 25px 10px;
+}
+
+.main-text{
+    border-bottom: 2px solid #f2f2f2;
+    padding: 30px 30px;
+}
+
+.main-text-item{
+    width: 22%;
+    position: relative;
+    height: 160px;
+    float: left;
+    margin-right: 42px;
+}
+
+.main-text-item:last-child{
+    margin-right: 0;
+}
+
+.main-text-item-text{
+    line-height: 1.45;
+    overflow: hidden;
+    max-height: 140px;
+}
+
+.read_more{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ffac00;
+    text-decoration: none;
+}
+
+.team{
+
+}
+
+h1{
+    font-family: StMarie-Thin;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #ffb540;
+    margin: 13px 0 0 0;
+    text-align: center;
+}
+
+.team-member-set{
+    margin-top: 36px;
+}
+
+.team-member{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    position: relative;
+}
+
+.team-member:first-child{
+    right: 50px;
+}
+
+.team-member:last-child{
+    left: 50px;
+}
+
+.team-member span{
+    color: #fb9c06;
+}
+
+.team-member figure img{
+    border-radius: 100%;
+    border: 10px solid #ffb540;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.team-member figure figcaption{
+    font-size: 15px;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.5;
+}
+
+.message{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.message-form{
+    margin-top: 64px;
+}
+
+.message-form div{
+    margin-bottom: 44px;
+}
+
+.message-form div:nth-child(3){
+    margin-bottom: 0;
+}
+
+.message-form label{
+    font-family: StMarie-Thin;
+    font-size: 24px;
+    color: #fb9c06;
+    display: block;
+    width: 130px;
+    float: left;
+}
+
+.message-form input{
+    height: 25px;
+    width: 88%;
+    background-color: #f8f7f6;
+    border: none;
+    border-left: 5px solid #d2d0cf;
+    border-top: 3px solid #d2d0cf;
+}
+
+.message-form textarea{
+    background-color: #f8f7f6;
+    border: none;
+    border-left: 5px solid #d2d0cf;
+    border-top: 3px solid #d2d0cf;
+    resize: none;
+    height: 83px;
+    width: 88%
+}
+
+.message .message-btn{
+    font-family: StMarie-Thin;
+    font-size: 30px;
+    float: right;
+    margin: 13px 43px 0 0;
+    padding: 5px 0;
+    width: 175px;
+    height: auto;
+    color: white;
+    background-color: #fb9c06;
+    border: none;
+    border-bottom: 3px solid #cc830f;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    margin-top: -70px;
+    background-color: #fb9c06;
+    border-bottom: 3px solid #cc830f;
+    text-align: center;
+    font-family: StMarie-Thin;
+    font-size: 33px;
+    padding-top: 15px;
+    color: white;
+}
+
