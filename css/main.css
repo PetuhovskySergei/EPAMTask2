@@ -8,10 +8,15 @@
     src: url(../fonts/StMarie-Thin.otf);
 }
 
+html{
+    height: 100%;
+}
+
 body{
     font-family: Calibri;
     margin: 0;
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     position: relative;
 }
 
@@ -106,7 +111,7 @@ main{
     width: 400px;
 }
 
-.slider-title h2{
+.slider-title h3{
     font-family: Bebas;
     font-size: 37px;
     font-weight: bold;
@@ -164,7 +169,7 @@ main{
 
 }
 
-h1{
+h2{
     font-family: StMarie-Thin;
     font-size: 40px;
     text-decoration: underline;
@@ -233,7 +238,6 @@ h1{
     font-family: StMarie-Thin;
     font-size: 24px;
     color: #fb9c06;
-    display: block;
     width: 130px;
     float: left;
 }
@@ -275,7 +279,8 @@ footer{
     box-sizing: border-box;
     width: 100%;
     height: 70px;
-    margin-top: -70px;
+    position: absolute;
+    bottom: 0;
     background-color: #fb9c06;
     border-bottom: 3px solid #cc830f;
     text-align: center;
